@@ -1,0 +1,37 @@
+{
+  "name": "aperture-server",
+  "version": "1.0.0",
+  "description": "The Aperture server is a websocket-based implementation that allows a linux or windows device to share its terminal with a web-based interface for easy access of the device, remotely. The server implements socket.io on the backend as a means of channeling the communication between your frontend and the device you want to connect to.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "npm install && node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "keywords": [
+    "aperture",
+    "socket.io",
+    "websocket",
+    "server",
+    "cli"
+  ],
+  "author": "Jordan Violet",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "ioredis": "^3.1.4",
+    "moment": "^2.18.1",
+    "socket.io": "2.0.4",
+    "socket.io-redis": "^5.1.0",
+    "socketio-auth": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}

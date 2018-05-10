@@ -1,0 +1,26 @@
+{
+    "port": 5001,
+    "clientIdentifier": {
+        "user": "user",
+        "device": "device"
+    },
+    "serverSubOptions": {
+        "joinRoom": "join room",
+        "leaveRoom": "leave room",
+        "getRooms": "get rooms",
+        "terminalData": "terminal data",
+        "resizeTerminal": "resize terminal",
+        "disconnect": "disconnect"
+    },
+    "serverPubOptions": {
+        "joinedRoom": "joined room",
+        "userJoinedDevice": "user joined device",
+        "unauthorized": "unauthorized",
+        "unavailableRoom": "unavailable room",
+        "roomList": "room list",
+        "terminalData": "terminal data",
+        "resizeTerminal": "resize terminal",
+        "userLeftDevice": "user left device"
+    },
+    "logTimestampFormat": "YYYY-MM-DD HH:mm:ss"
+}
