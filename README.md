@@ -2,8 +2,7 @@
 The Aperture server is a websocket-based implementation that allows a linux or windows device to share its terminal with a web-based interface for easy access of the device, remotely. The server implements socket.io on the backend as a means of channeling the communication between your frontend and the device you want to connect to.
 
 # Configuration
-All configuration for the server is stored in `/lib/config.json`. Here are the configurations:
-* `port`: This is the local port you would like to run the application on when developing.
+All configuration for the server is stored in `/lib/config.json`.
 
 # Installation
 This application should be able to run on any Windows or Unix machine. Make sure to fill out your environment variables and then follow these steps:
