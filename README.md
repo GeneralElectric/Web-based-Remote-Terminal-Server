@@ -8,7 +8,7 @@ All configuration for the server is stored in `/lib/config.json`. Here are the c
 # Installation
 This application should be able to run on any Windows or Unix machine. Make sure to fill out your environment variables and then follow these steps:
 ```
-git clone https://github.com/GeneralElectric/Web-based-Remote-Terminal-Server
+git clone https://github.com/GeneralElectric/Web-based-Remote-Terminal-Server.git
 npm start
 ```
 
